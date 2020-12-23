@@ -5,7 +5,7 @@
 The GBC code uses an event model to emit the front call BDL event (*BDLInfo*) at the \
 session level to any widget objects that subscribe.  The subscribing widgets should test \
 the rectype property to determine if the frontcall is of a type that it needs to respond \
-to and process accordingly. \
+to and process accordingly.
 
 **Register a Widget** \
 `this._handler = session.when('BDLInfo', this._onInfoReceived.bind(this));`
