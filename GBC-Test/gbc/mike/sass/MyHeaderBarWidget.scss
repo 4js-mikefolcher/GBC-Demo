@@ -1,0 +1,46 @@
+.mike-header {
+   width: 100%;
+   height: 65px;
+   
+   .mike-appimage {
+      object-fit: contain;
+      height: 60px;
+   }
+
+   .mike-button {
+      width: 80px;
+      height: 25px;
+      justify-content: center;
+   }
+
+   .mike-logout-button {
+      background: transparent;
+      border: 0;
+      box-shadow: none;
+      border-radius: 0px;
+      width: 100%;
+      height: 100%;
+      padding-top: 3px;
+   }
+
+   .mike-logout-col {
+      max-width: 100px;
+      padding-left: 10px;
+      text-align: right;
+   }
+
+   .mike-info-col {
+      max-width: 250px;
+      text-align: right;
+   }
+
+   .mike-appname-col {
+      font-size: x-large;
+      text-align: center;
+   }
+
+	.mike-header-hidden {
+		visibility: hidden;
+	}
+
+}

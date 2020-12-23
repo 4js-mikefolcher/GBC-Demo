@@ -1,0 +1,18 @@
+{
+  "palette-primary": "$mt-green",
+  "palette-secondary": "$mt-lime",
+  "theme-message-display-time": 80,
+  "theme-error-display-time": 80,
+  "theme-primary-background-color": "$palette-primary-700",
+  "theme-primary-emphasis-background-color": "$palette-primary-900",
+  "theme-primary-faded-background-color": "$palette-primary-400",
+  "theme-secondary-background-color": "$palette-secondary-50",
+  "theme-header-color": "$palette-secondary-50",
+  "gbc-StartMenuWidget-color": "$palette-primary-700",
+  "gbc-StartMenuWidget-background-color": "$palette-secondary-50",
+  "gbc-StartMenuGroupWidget-hover-color": "$palette-secondary-50",
+  "gbc-StartMenuCommandWidget-hover-color": "$palette-secondary-50",
+  "gbc-TableWidget-header-disabled-color": "$palette-primary-700",
+  "gbc-WindowWidget-background-color": "$palette-secondary-50",
+  "theme-sidebar-always-visible-min-width": "9999px"
+}

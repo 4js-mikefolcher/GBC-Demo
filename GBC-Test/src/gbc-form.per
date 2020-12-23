@@ -1,0 +1,37 @@
+LAYOUT
+	VBOX
+		GRID
+{
+<g "Header Information"                                               >
+["App Image URL: "][fld001                                           ]
+["App Name: "     ][fld002                                           ]
+["Username: "     ][fld003              ]
+["Last Login: "   ][fld004              ]
+
+<g "Footer Information"                                               >
+["Home URL: "     ][fld005                               ]
+["Email Address: "][fld006                               ]
+}
+		END --GRID
+	END --VBOX
+END --LAYOUT
+
+ATTRIBUTES
+
+	EDIT fld001 = formonly.appimage, SCROLL;
+	EDIT fld002 = formonly.appname, SCROLL;
+	EDIT fld003 = formonly.username;
+	DATETIMEEDIT fld004 = formonly.lastlogin;
+
+	EDIT fld005 = formonly.homeurl, SCROLL;
+	EDIT fld006 = formonly.email_addr, SCROLL;
+
+END --ATTRIBUTES
+
+INSTRUCTIONS
+
+	SCREEN RECORD s_record(formonly.appimage, formonly.appname, 
+		formonly.username, formonly.lastlogin,
+		formonly.homeurl, formonly.email_addr);
+
+END --INSTRUCTIONS
