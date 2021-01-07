@@ -103,7 +103,7 @@ END FUNCTION
 PRIVATE FUNCTION errorHandler() RETURNS ()
 
         DISPLAY SFMT("Error Code: %1", STATUS)
-        DISPLAY SFMT("Error Description: %2", err_get(STATUS))
+        DISPLAY SFMT("Error Description: %1", err_get(STATUS))
         DISPLAY SFMT("Stack Trace: %1", base.Application.getStackTrace())
         EXIT PROGRAM -1
 
