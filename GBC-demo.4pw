@@ -65,29 +65,29 @@
   <LanguageList version="1.0"/>
   <PlatformList version="1.0"/>
   <Group id="75644415" label="Group" language="Genero">
-    <Library binaryName="GBC-mike" dependencies="1986" id="14000" label="GBC-mike">
+    <Library binaryName="GBC-demo" dependencies="1986" id="14000" label="GBC-demo">
       <VirtualFolder label="js">
-        <File filePath="GBC-Test/gbc/mike/js/JSONInfo.js"/>
-        <File filePath="GBC-Test/gbc/mike/js/MyFooterBarWidget.js"/>
-        <File filePath="GBC-Test/gbc/mike/js/MyFooterBarWidget.tpl.html"/>
-        <File filePath="GBC-Test/gbc/mike/js/MyHeaderBarWidget.js"/>
-        <File filePath="GBC-Test/gbc/mike/js/MyHeaderBarWidget.tpl.html"/>
-        <File filePath="GBC-Test/gbc/mike/js/MyMainContainerWidget.js"/>
-        <File filePath="GBC-Test/gbc/mike/js/MyMainContainerWidget.tpl.html"/>
+        <File filePath="GBC-Test/gbc/gbc-demo/js/JSONInfo.js"/>
+        <File filePath="GBC-Test/gbc/gbc-demo/js/MyFooterBarWidget.js"/>
+        <File filePath="GBC-Test/gbc/gbc-demo/js/MyFooterBarWidget.tpl.html"/>
+        <File filePath="GBC-Test/gbc/gbc-demo/js/MyHeaderBarWidget.js"/>
+        <File filePath="GBC-Test/gbc/gbc-demo/js/MyHeaderBarWidget.tpl.html"/>
+        <File filePath="GBC-Test/gbc/gbc-demo/js/MyMainContainerWidget.js"/>
+        <File filePath="GBC-Test/gbc/gbc-demo/js/MyMainContainerWidget.tpl.html"/>
       </VirtualFolder>
       <VirtualFolder label="sass">
-        <File filePath="GBC-Test/gbc/mike/sass/customization.scss"/>
-        <File filePath="GBC-Test/gbc/mike/sass/MyFooterBarWidget.scss"/>
-        <File filePath="GBC-Test/gbc/mike/sass/MyHeaderBarWidget.scss"/>
-        <File filePath="GBC-Test/gbc/mike/sass/MyMainContainerWidget.scss"/>
+        <File filePath="GBC-Test/gbc/gbc-demo/sass/customization.scss"/>
+        <File filePath="GBC-Test/gbc/gbc-demo/sass/MyFooterBarWidget.scss"/>
+        <File filePath="GBC-Test/gbc/gbc-demo/sass/MyHeaderBarWidget.scss"/>
+        <File filePath="GBC-Test/gbc/gbc-demo/sass/MyMainContainerWidget.scss"/>
       </VirtualFolder>
       <VirtualFolder label="theme">
         <VirtualFolder label="common">
-          <File filePath="GBC-Test/gbc/mike/theme/common/theme.scss.json"/>
+          <File filePath="GBC-Test/gbc/gbc-demo/theme/common/theme.scss.json"/>
         </VirtualFolder>
       </VirtualFolder>
-      <File filePath="GBC-Test/gbc/mike/config.json"/>
-      <File filePath="GBC-Test/gbc/mike/howto.txt"/>
+      <File filePath="GBC-Test/gbc/gbc-demo/config.json"/>
+      <File filePath="GBC-Test/gbc/gbc-demo/howto.txt"/>
     </Library>
     <Application binaryName="GBC-Test" dependencies="14000,1986" id="18736" label="GBC-Test">
       <File filePath="GBC-Test/src/gbc-form.per"/>

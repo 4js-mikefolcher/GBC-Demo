@@ -42,6 +42,7 @@ MAIN
 
 		ON ACTION CANCEL
 			EXIT INPUT
+
 		AFTER INPUT
 			IF recHeader.appimage IS NULL THEN
 				ERROR "App Image is missing"

@@ -1,0 +1,27 @@
+#Install GBC:
+unzip gbc*project.zip
+
+#From the project root:
+npm install
+grunt
+
+#Copy the gbc-demo directory underneath the customization subdirectory
+cp -R $(ProjectDir)/GBC-Test/gbc/gbc-demo customization/.
+
+#Or create a symbolic link
+ln -s -R $(ProjectDir)/GBC-Test/gbc/gbc-demo customization/gbc-demo
+
+#Local dev build
+grunt --compile-mode=dev --customization=customization/gbc-demo
+
+#Deployment build
+grunt --compile-mode=prod --customization=customization/gbc-demo --create-zip
+
+#Use the gbc-demo in Genero Studio
+- Set GBC_USER_DIR to the install subdirectory dist of the GBC project
+ (ex: GBC_USER_DIR=/mydir/gbc-1.00.58/dist)
+- Create a text file named _default that has the path to the gbc-demo customization
+ (ex: echo customization/gbc-demo > _default)
+- Ensure that the httpdispatch process sets the res.path.gbc.user parameter to the value in GBC_USER_DIR
+ (ex: -E res.path.gbc.user=$GBC_USER_DIR)
+

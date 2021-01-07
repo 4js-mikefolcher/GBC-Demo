@@ -1,6 +1,11 @@
 # GBC Frontcall Demo
 **GBC Frontcall**
 
+## Pre-requisite
+**The GBC project must be installed** \
+To run this demo, you must install the GBC development project and follow the steps in the \
+howto.txt file in the GBC-Test/gbc/gbc-demo directory.
+
 ## GBC Code
 The GBC code uses an event model to emit the front call BDL event (*BDLInfo*) at the \
 session level to any widget objects that subscribe.  The subscribing widgets should test \
